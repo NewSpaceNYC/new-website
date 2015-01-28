@@ -85,7 +85,7 @@ html {
 }
 
 body {
-  font-family: 'Vollkorn', Georgia, serif;
+  /* font-family: 'Vollkorn', Georgia, serif; */
   background-color: #F3F3F3;
   font-size: 24px;
   font-style: normal;
@@ -940,7 +940,7 @@ a.scrollto {
 .toggleclose {
   width: 80px;
   height: 80px;
-  background-color: #fff;
+  background-color: rgb(26, 24, 27);
   text-align: center;
   position: fixed;
   z-index: 300;
@@ -1268,6 +1268,9 @@ blockquote.bigtext {
 
 #stats {
   text-align: center;
+}
+#stats h3{
+  color: #fff;
 }
 
 #stats span.counter {
@@ -3115,7 +3118,7 @@ span.icon-at {
 
 footer {
   text-align: center;
-  background-color: #444
+  background-color: #2F193C;
 }
 
 footer .padding {
@@ -4073,7 +4076,7 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
 /* Modals                                               */
 /********************************************************/
 .modal-content {
-  color: #434a54;
+  color: #CE57E0;
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -4401,6 +4404,10 @@ a.list-group-item-danger.active, a.list-group-item-danger:hover, a.list-group-it
 .white {
   background-color: #fff;
   border-color: #fff !important
+}
+.trans-purple{
+  background-color: rgba(146, 98, 180, 0.29);
+  border-color: rgba(146, 98, 180, 0.29); !important;
 }
 /* Black */
 .black {
